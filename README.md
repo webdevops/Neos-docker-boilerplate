@@ -5,7 +5,7 @@ It has some minor changes to have an optimized environment to use it with Neos i
 
 This is supposed to be used with [Dinghy](https://github.com/codekitchen/dinghy) as replacement for docker-machine
 to make your life much easier.
-You can also read about this in our blogpost (todo: insert link).
+You can also read about this in our [blogpost](http://blog.1drop.de/en/developing-neos-with-docker/).
 
 Modifications made for Neos:
 
