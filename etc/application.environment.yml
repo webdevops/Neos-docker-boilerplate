@@ -3,6 +3,7 @@
 DOCKER_ENVIRONMENT:
   # Application
   TYPO3_CONTEXT:   "{{ lookup('env','TYPO3_CONTEXT') }}"
+  FLOW_CONTEXT:   "{{ lookup('env','FLOW_CONTEXT') }}"
 
   SYMFONY_ENV:     "{{ lookup('env','SYMFONY_ENV') }}"
   SYMFONY_DEBUG:   "{{ lookup('env','SYMFONY_DEBUG') }}"

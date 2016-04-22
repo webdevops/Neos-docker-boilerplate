@@ -24,6 +24,7 @@ server {
     location ~ \.php$ {
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
         fastcgi_pass php;
+        fastcgi_param FLOW_REWRITEURLS 1;
         include fastcgi_params;
 
         fastcgi_param SCRIPT_FILENAME     $request_filename;
@@ -56,6 +57,7 @@ server {
     location ~ \.php$ {
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
         fastcgi_pass php;
+        fastcgi_param FLOW_REWRITEURLS 1;
         include fastcgi_params;
 
         fastcgi_param SCRIPT_FILENAME     $request_filename;

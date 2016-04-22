@@ -16,11 +16,11 @@ PROVISION:
 
 WEB:
   vhost:
-    - { serverName: "docker.vm", serverAlias: "*.vm" }
+    - { serverName: "neos.docker", serverAlias: "*.docker" }
 
 DNS:
   domain:
-    - { domain: ".vm", address: "127.0.0.1" }
+    - { domain: ".docker", address: "127.0.0.1" }
 
 MAIL:
   aliases:

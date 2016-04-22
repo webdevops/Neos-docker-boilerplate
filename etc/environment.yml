@@ -10,9 +10,9 @@
 # Webserver
 
 # General
-WEB_DOCUMENT_ROOT=/app/web/
+WEB_DOCUMENT_ROOT=/app/Web/
 WEB_DOCUMENT_INDEX=index.php
-CLI_SCRIPT=php /app/web/typo3/cli_dispatch.phpsh
+CLI_SCRIPT=php /app/flow
 
 #######################################
 # SSH settings
@@ -33,7 +33,7 @@ SSH_AUTH_KEY=""
 MYSQL_ROOT_PASSWORD=dev
 MYSQL_USER=dev
 MYSQL_PASSWORD=dev
-MYSQL_DATABASE=typo3
+MYSQL_DATABASE=neos
 
 #######################################
 # PostgreSQL settings
