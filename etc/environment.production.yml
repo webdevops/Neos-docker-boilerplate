@@ -10,7 +10,7 @@
 # Context environment
 
 # FLOW
-FLOW_CONTEXT=Development
+FLOW_CONTEXT=Production
 FLOW_PATH_TEMPORARY_BASE=/opt/tmp
 VIRTUAL_HOST=neos.docker
 VIRTUAL_PORT=80
