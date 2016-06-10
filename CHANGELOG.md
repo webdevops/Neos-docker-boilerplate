@@ -1,8 +1,30 @@
 PHP Docker Boilerplate Changelog
 ==================================
 
-5.1.0 - UPCOMING
-----------------
+5.1.3 - 2016-05-25
+------------------
+- Fix nginx vhost configuration (modular WebDevOps image design)
+
+5.1.2 - 2016-05-25
+------------------
+- Fix typo in Docker image names (duplicate -dev)
+
+5.1.1 - 2016-05-24
+------------------
+- Fixed Docker image names in Dockerfile.development
+- Updated nginx and apache vhost configuration
+
+5.1.0 - 2016-05-23
+------------------
+- Add support for new WebDevOps Docker images 0.5.0 and up
+- Removed xdebug and blackfire, for xdebug use php-dev, php-apache-dev, php-nginx-dev images
+
+5.0.2 - 2016-05-09
+------------------
+- Added exit if solr entrypoint is failing inside
+- Fix solr storage
+- Add `make shell` and `make root` (Makefile targets)
+- Refactored backup and restore (solr and mysql, see Makefile)
 
 5.0.1 - 2016-03-08
 ------------------

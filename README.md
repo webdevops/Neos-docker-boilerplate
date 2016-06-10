@@ -3,6 +3,11 @@
 This is an easy customizable Neos docker boilerplate based on the [TYPO3 docker boilerplate](https://github.com/webdevops/TYPO3-docker-boilerplate) by the awesome team webdevops.
 It has some minor changes to have an optimized environment to use it with Neos instead of TYPO3.
 
+[![latest v5.1.3](https://img.shields.io/badge/latest-v5.1.3-green.svg?style=flat)](https://github.com/webdevops/Neos-docker-boilerplate/releases/tag/5.1.3)
+![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/webdevops/neos-docker-boilerplate.svg)](http://isitmaintained.com/project/webdevops/neos-docker-boilerplate "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/webdevops/neos-docker-boilerplate.svg)](http://isitmaintained.com/project/webdevops/neos-docker-boilerplate "Percentage of issues still open")
+
 This is supposed to be used with [Dinghy](https://github.com/codekitchen/dinghy) as replacement for docker-machine
 to make your life much easier.
 You can also read about this in our [blogpost](http://blog.1drop.de/en/developing-neos-with-docker/).
@@ -17,8 +22,8 @@ Modifications made for Neos:
 
 ## How to use it
 
-    git clone https://github.com/1drop/neos-docker-boilerplate
-    cd neos-docker-boilerplate
+    git clone https://github.com/webdevops/Neos-docker-boilerplate
+    cd Neos-docker-boilerplate
     make create neos
     make up
     

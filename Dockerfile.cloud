@@ -24,7 +24,6 @@
 #   webdevops/php-apache:debian-8
 #   webdevops/php-apache:debian-8-php7
 #   webdevops/php-apache:debian-9
-#   webdevops/php-apache:debian-9-php7
 #
 # Nginx:
 #   webdevops/php-nginx:ubuntu-12.04
@@ -37,7 +36,6 @@
 #   webdevops/php-nginx:debian-8
 #   webdevops/php-nginx:debian-8-php7
 #   webdevops/php-nginx:debian-9
-#   webdevops/php-nginx:debian-9-php7
 #
 # HHVM:
 #   webdevops/hhvm-apache
