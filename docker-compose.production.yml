@@ -21,6 +21,9 @@ app:
     - ./app/:/app/
   volumes_from:
     - storage
+  environment:
+    VIRTUAL_HOST: neos.docker # Change this if you need another hostname for your nginx reverse proxy (dinghy)
+    VIRTUAL_PORT: 80
   env_file:
     - etc/environment.yml
     - etc/environment.production.yml

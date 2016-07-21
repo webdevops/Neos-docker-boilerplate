@@ -14,6 +14,10 @@ WEB_DOCUMENT_ROOT=/app/Web/
 WEB_DOCUMENT_INDEX=index.php
 CLI_SCRIPT=php /app/flow
 
+# Flow general settings
+FLOW_REWRITEURLS=1
+FLOW_PATH_TEMPORARY_BASE=/opt/tmp
+
 #######################################
 # SSH settings
 # SSH public key (without comment):

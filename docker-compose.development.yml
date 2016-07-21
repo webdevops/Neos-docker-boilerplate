@@ -27,6 +27,9 @@ app:
   cap_add:
     - SYS_PTRACE
   privileged: true
+  environment:
+    VIRTUAL_HOST: neos.docker # Change this if you need another hostname for your nginx reverse proxy (dinghy)
+    VIRTUAL_PORT: 80
   env_file:
     - etc/environment.yml
     - etc/environment.development.yml
