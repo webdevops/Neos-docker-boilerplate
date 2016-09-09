@@ -25,6 +25,14 @@ Modifications made for Neos:
     git clone https://github.com/webdevops/Neos-docker-boilerplate
     cd Neos-docker-boilerplate
     make create neos
+    cp docker-compose.development.yml docker-compose.yml
     make up
     
 After a few seconds your environment is ready and you can access it at http://neos.docker/setup
+
+## Credentials
+
+Database:
+
+* User: dev
+* Password: dev
