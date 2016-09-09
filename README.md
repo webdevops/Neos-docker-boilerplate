@@ -36,3 +36,5 @@ Database:
 
 * User: dev
 * Password: dev
+* Database: neos
+* Hostname: mysql
