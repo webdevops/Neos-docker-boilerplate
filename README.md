@@ -24,7 +24,7 @@ Modifications made for Neos:
 
     git clone https://github.com/webdevops/Neos-docker-boilerplate
     cd Neos-docker-boilerplate
-    # Copy/rename wanted docker-compose.*.yml configuration to docker-compose.yml
+    cp docker-compose.development.yml docker-compose.yml
     make create neos
     make up
     
