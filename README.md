@@ -26,6 +26,16 @@ Modifications made for Neos:
     cd Neos-docker-boilerplate
     cp docker-compose.development.yml docker-compose.yml
     make create neos
+    cp docker-compose.development.yml docker-compose.yml
     make up
     
 After a few seconds your environment is ready and you can access it at http://neos.docker/setup
+
+## Credentials
+
+Database:
+
+* User: dev
+* Password: dev
+* Database: neos
+* Hostname: mysql
